@@ -331,6 +331,27 @@ def test_15_create_post(client, auth_headers):
     assert 'guitar' in data['post']['content'].lower()
 
 
+# ========== TEST 15B: Create Skill-Tagged Post ==========
+def test_15b_create_skill_tagged_post(client, auth_headers):
+    """TC-15B: Posts linked to a skill should serialize correctly."""
+    skill_resp = client.post('/api/skills', headers=auth_headers, json={
+        'skill_name': 'Bugfix Test Skill',
+        'category': 'Photography',
+        'description': 'Regression test skill'
+    })
+    skill_id = json.loads(skill_resp.data)['skill']['id']
+
+    response = client.post('/api/posts', headers=auth_headers, json={
+        'content': 'Completed a portrait lighting milestone.',
+        'skill_id': skill_id,
+        'visibility': 'public'
+    })
+    assert response.status_code == 201
+    data = json.loads(response.data)
+    assert data['post']['skill_id'] == skill_id
+    assert data['post']['skill_name'] == 'Bugfix Test Skill'
+
+
 # ========== TEST 16: Retrieve Feed ==========
 def test_16_retrieve_feed(client, auth_headers):
     """TC-16: Retrieve community feed."""
