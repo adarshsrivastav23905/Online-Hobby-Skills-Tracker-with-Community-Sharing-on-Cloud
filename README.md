@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Executive Summary
+## 📌 Executive Summary   
 
 Most individuals struggle to sustain hobbies and skill development due to a lack of **structured tracking**, **visual progress analytics**, and **social accountability**. **SkillCloud** is a cloud-native platform that solves this retention challenge by combining:
 
