@@ -9,7 +9,7 @@
 ---
 
 ## 1. ABSTRACT
-
+    
 In contemporary lifelong learning and skill acquisition, self-directed learners often struggle with long-term retention and deliberate practice due to the lack of structured tracking, quantified feedback, and social accountability loops. This project presents **SkillCloud**, an industry-oriented, cloud-backed web platform designed to facilitate hobby tracking, habit streaks, structured milestone management, and decentralized community sharing.
 
 Built on modern cloud computing design principles, SkillCloud demonstrates a decoupled four-tier microservice architecture consisting of a **Single-Page Application (SPA) Client Tier**, a **Stateless RESTful API Gateway Tier**, a **Scalable Compute Engine**, and **Dual-Store Cloud Persistence** (Relational Database for structured entities and Cloud Object Storage for user-generated media). The system incorporates a streak-calculation algorithm, gamified badge unlocking, real-time telemetry analysis, and token-based authentication (JWT). Automated tests validate all 27 core scenarios with a 100% pass rate.
