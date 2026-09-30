@@ -79,6 +79,60 @@ graph TD
 
 ---
 
+## 📸 Project Screenshots
+
+The following captures show SkillCloud's main application screens and workflows.
+
+### Dashboard Overview
+
+![SkillCloud dashboard overview](screenshots/01_dashboard.png)
+
+### Skills and Goals
+
+![Skills and goals portfolio](screenshots/02_skills_and_goals.png)
+
+### Add Skill Form
+
+![Add a skill form](screenshots/03_add_skill_form.png)
+
+### Practice Logger
+
+![Practice logger and timer](screenshots/04_practice_logger.png)
+
+### Log Practice Form
+
+![Log practice form](screenshots/05_log_practice_form.png)
+
+### Create Goal Form
+
+![Create goal form](screenshots/06_create_goal_form.png)
+
+### Community Feed
+
+![Community learning feed](screenshots/07_community_feed.png)
+
+### Share Milestone Form
+
+![Share milestone form](screenshots/08_share_milestone_form.png)
+
+### Analytics and Badges
+
+![Analytics and achievement badges](screenshots/09_analytics_and_badges.png)
+
+### Peers and Network
+
+![Peers and network](screenshots/10_peers_and_network.png)
+
+### Cloud Architecture
+
+![Cloud architecture inspector](screenshots/11_cloud_architecture.png)
+
+### Sign-in Screen
+
+![SkillCloud sign-in screen](screenshots/12_sign_in.png)
+
+---
+
 ## 🛠️ Tech Stack & Dependencies
 
 ### Frontend
