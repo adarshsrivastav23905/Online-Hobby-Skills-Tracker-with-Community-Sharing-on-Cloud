@@ -1,5 +1,5 @@
 # 🎯 VIVA & TECHNICAL INTERVIEW PREPARATION GUIDE
-
+      
 # SkillCloud — Online Hobby & Skills Tracker on Cloud
 
 This comprehensive guide covers all conceptual, architectural, and code-level questions likely to be asked by **examiners, professors, and technical interviewers**.
