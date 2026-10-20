@@ -55,7 +55,7 @@ graph TD
 ```
 
 ### Cloud Mapping Matrix
-
+   
 | Component | Local Simulation | AWS Free Tier | Google Cloud (GCP) | Microsoft Azure |
 | :--- | :--- | :--- | :--- | :--- |
 | **Frontend Hosting** | Vite Local Server (`:5173`) | AWS Amplify / S3 + CloudFront | Firebase Hosting / Cloud Storage | Azure Static Web Apps |
