@@ -142,7 +142,7 @@ The following captures show SkillCloud's main application screens and workflows.
 - **Animations & Effects**: Canvas Confetti, CSS Glassmorphism
 - **Styling**: Modern CSS Design System (Custom Variables, Flexbox/Grid, Dark Mode)
 
-### Backend
+### Backend.  
 - **Framework**: Flask 3.1 (Python 3.11+)
 - **Security & Tokens**: Flask-JWT-Extended 4.7, Werkzeug Security (Argon2 / SHA-256)
 - **Database ORM**: Flask-SQLAlchemy 3.1 (SQLAlchemy 2.0 compliant)
